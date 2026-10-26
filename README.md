@@ -1,4 +1,4 @@
-# Legal AI Institute
+# Legal AI Institute.
 
 The Legal AI Institute brings together legal scholarship and artificial intelligence through research, public legal information projects, and scholarly exchange.
 
