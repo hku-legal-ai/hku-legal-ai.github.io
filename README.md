@@ -1,18 +1,13 @@
-# Legal AI Institute.
+# Legal AI Lab @ HKU
 
 The Legal AI Institute brings together legal scholarship and artificial intelligence through research, public legal information projects, and scholarly exchange.
 
-[Visit our website](https://legal-ai-institute.github.io/)
+[Visit our website](https://hku-legal-ai.github.io/)
 
 ## Co-Directors
 
 - [Prof. Benjamin Minhao Chen](https://www.law.hku.hk/academic_staff/benjamin-m-chen/)
 - [Prof. Yu Fan](https://www.law.hku.hk/academic_staff/professor-yu-fan/)
-
-## Ongoing Projects
-
-- [HKLII — Hong Kong Legal Information Institute](https://www.hklii.hk/)
-- [CLIC — Community Legal Information Centre](https://clic.org.hk/en)
 
 ## Organized Events
 
