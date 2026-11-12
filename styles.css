@@ -8,3 +8,15 @@
 @media(max-width:360px){.brand{font-size:18px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{.site-header{position:static}.menu-toggle,.hero-actions,.hero-bottom,.back-top{display:none!important}.container{width:100%}.section{padding-block:30px}.hero{padding-top:20px;grid-template-columns:1fr 1fr}body{font-size:11pt}.project,.event,.director,.community-group{break-inside:avoid}.events-section{background:white;color:var(--ink)}.events-section p,.event-date span:last-child,.event-link,.event-content>.eyebrow{color:var(--ink)}a[href^="http"]:after{content:' (' attr(href) ')';font-size:8pt;overflow-wrap:anywhere}.project:after,.director:after,.event:after{display:block;grid-column:1/-1;margin-top:10px}.site-footer{background:white}}
+
+/* Team profiles */
+.team-section{margin-top:60px}.team-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 52px}.team-grid-single{max-width:calc(50% - 26px)}.team-card{display:grid;grid-template-columns:150px minmax(0,1fr);gap:25px;align-items:start}.team-photo{display:block;width:100%;height:auto;aspect-ratio:365/480;object-fit:cover;object-position:center center;background:#e5e9df}.team-placeholder{display:grid;place-items:center;color:var(--muted);font:36px var(--serif)}.team-info h4{font:400 23px/1.2 var(--serif);margin:6px 0 14px}.team-info p{font-size:12px;line-height:1.7;color:var(--text);margin:0 0 10px}@media(max-width:1100px){.team-card{grid-template-columns:115px minmax(0,1fr);gap:20px}.team-grid{gap:28px}.team-grid-single{max-width:calc(50% - 14px)}}@media(max-width:760px){.team-card{grid-template-columns:1fr;gap:15px}.team-photo{width:100%}.team-info h4{font-size:21px}}@media(max-width:480px){.team-grid{gap:22px}.team-grid-single{max-width:calc(50% - 11px)}.team-info h4{font-size:20px}.team-info p{font-size:11px}}
+
+.team-photo[src="assets/team-1.jpeg"]{object-position:center top}.team-photo-frame{overflow:hidden}.team-photo-zoom{width:100%;height:100%;object-fit:cover;transform:scale(1.5);transform-origin:5% 20%}
+
+.team-grid-single{grid-template-columns:minmax(0,1fr)}
+
+/* Consistent profile descriptions and single-line name. */
+.director-info>p:not(.eyebrow),.team-info p{font-size:10.5px;line-height:1.5}.team-info p{margin-bottom:6px}.team-grid-single .team-info h4{white-space:nowrap}
+
+.team-info h4{margin:0 0 6px}.team-info p:last-child{margin-bottom:0}
